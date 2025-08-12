@@ -50,3 +50,15 @@
 
 -   Tạo một ứng dụng Django mới tên test_app bên trong dự án.
 -   Mỗi “app” trong Django thường đảm nhiệm một chức năng (blog, user, sản phẩm...).
+
+# pip freeze
+
+-   Liệt kê tất cả gói đã cài + phiên bản (django==5.0.7).
+
+# pip freeze > requirements.txt
+
+-   Xuất danh sách tất cả các thư viện Python đang cài trong môi trường hiện tại (kèm phiên bản) vào file requirements.txt.
+
+# pip install -r requirements.txt
+
+-   Dùng để cài đặt toàn bộ thư viện và đúng phiên bản được liệt kê trong file requirements.txt.
