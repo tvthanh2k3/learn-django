@@ -62,3 +62,7 @@
 # pip install -r requirements.txt
 
 -   Dùng để cài đặt toàn bộ thư viện và đúng phiên bản được liệt kê trong file requirements.txt.
+
+# python manage.py migrate
+
+-   dùng để áp dụng các thay đổi cơ sở dữ liệu (database schema) dựa trên các file migration của Django
