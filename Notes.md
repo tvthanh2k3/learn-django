@@ -70,3 +70,25 @@
 # python manage.py makemigration
 
 -   Dùng để tạo file migration mô tả các thay đổi bạn vừa làm với models.
+
+# python manage.py createsuperuser
+
+-   Dùng để tạo một tài khoản quản trị (superuser) cho hệ thống.
+
+# python manage.py shell
+
+-   Mở ra một môi trường Python tương tác nhưng có tích hợp toàn bộ Django project của bạn
+-   Nói cách khác, nó giống python trong terminal, nhưng:
+
+*   Django đã được load sẵn (settings, models, database connection...).
+*   Bạn có thể import và làm việc với model, query database ngay lập tức
+
+-   Ví dụ:
+
+*   from leads.models import User, Lead
+
+*   Tạo user - u = User.objects.create(username="john", password="123456")
+
+*   Tạo lead - Lead.objects.create(first_name="Alice", last_name="Nguyen", age=25, agent_id=1)
+
+*   Lấy dữ liệu - Lead.objects.all()
