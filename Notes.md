@@ -65,4 +65,8 @@
 
 # python manage.py migrate
 
--   dùng để áp dụng các thay đổi cơ sở dữ liệu (database schema) dựa trên các file migration của Django
+-   Dùng để áp dụng các thay đổi cơ sở dữ liệu (database schema) dựa trên các file migration của Django
+
+# python manage.py makemigration
+
+-   Dùng để tạo file migration mô tả các thay đổi bạn vừa làm với models.
